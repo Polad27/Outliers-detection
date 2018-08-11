@@ -2,7 +2,7 @@ def data_targz_download(url, directory, filename):
   
   import os
   import tarfile
-  import urllib
+  import urllib.request
   
   url = url
   file_tmp = urllib.request.urlretrieve(url, filename=None)[0]
